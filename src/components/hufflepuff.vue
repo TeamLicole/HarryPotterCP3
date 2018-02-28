@@ -16,3 +16,13 @@
 
 </div>
 </template>
+
+<script>
+ export default {
+   name: 'Hufflepuff',
+   data () {
+     return {
+     }
+   }
+ }
+</script>

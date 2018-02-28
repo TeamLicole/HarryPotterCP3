@@ -15,3 +15,13 @@
 
 </div>
 </template>
+
+<script>
+ export default {
+   name: 'Ravenclaw',
+   data () {
+     return {
+     }
+   }
+ }
+</script>

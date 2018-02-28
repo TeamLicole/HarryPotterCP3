@@ -12,7 +12,6 @@
      name: 'Home',
      data () {
 	 return {
-	     imagePath: '/static/images/cloud.jpg'
 	 }
      }
  }

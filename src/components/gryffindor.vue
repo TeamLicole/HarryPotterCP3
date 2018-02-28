@@ -17,3 +17,12 @@
 </div>
 </templete>
 
+<script>
+ export default {
+   name: 'Gryffindor',
+   data () {
+     return {
+     }
+   }
+ }
+</script>
