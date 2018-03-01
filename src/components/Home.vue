@@ -1,10 +1,10 @@
 <template>
     <div class="home">
       <h1>Draco Dormiens Nunquam Titillandus</h1>
-      <img src="/static/images/sorting-hat.jpg">
       <p>
         <button v-on:click="sortIntoHouse">Get Sorted!</button>
       </p>
+      <img src="/static/images/sorting-hat.jpg">
     </div>
 </template>
 
@@ -42,3 +42,30 @@
       },
     }
 </script>
+
+<style>
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+</style>
