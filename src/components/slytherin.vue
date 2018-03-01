@@ -11,6 +11,8 @@
  export default {
    name: 'slytherin',
    data () {
+     return {
+     }
    }
  }
 </script>

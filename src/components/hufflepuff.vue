@@ -11,6 +11,8 @@
  export default {
    name: 'hufflepuff',
    data () {
+      return {
+      }
    }
  }
 </script>
