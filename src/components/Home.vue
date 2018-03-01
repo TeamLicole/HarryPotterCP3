@@ -1,6 +1,7 @@
 <template>
     <div class="home">
       <h1>Draco Dormiens Nunquam Titillandus</h1>
+      <img src="/static/images/sorting-hat.jpg">
       <p>
         <button v-on:click="sortIntoHouse">Get Sorted!</button>
       </p>
