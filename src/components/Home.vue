@@ -14,25 +14,15 @@
         return {
         }
       },
-      computed: {
-       houseList: function() {
-         var houseList = new Array;
-         houseList[0] = "Hufflepuff";
-         houseList[1] = "Slytherin";
-         houseList[2] = "Ravenclaw";
-         houseList[3] = "Gryffindor";
-         return month[this.current.month - 1];
-       }
-     },
       methods: {
         getRandom: function(min, max) {
           min = Math.ceil(min);
           max = Math.floor(max);
-          var randomNum = Math.floor(Math.random() * (max - min + 1)) + min; //The maximum and minimum are inclusive
+          let randomNum = Math.floor(Math.random() * (max - min + 1)) + min; //The maximum and minimum are inclusive
           return randomNum;
         },
         sortIntoHouse: function() {
-          var houseNum = this.getRandom(0, 3);
+          let houseNum = this.getRandom(0, 3);
           switch(houseNum) {
             case 0:
               this.$router.push("hufflepuff");
