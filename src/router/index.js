@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Hufflepuff from '@/components/hufflepuff'
-import Slytherin from '@/components/slytherin'
-import Ravenclaw from '@/components/ravenclaw'
-import Gryffindor from '@/components/gryffindor'
+import hufflepuff from '@/components/hufflepuff'
+import slytherin from '@/components/slytherin'
+import ravenclaw from '@/components/ravenclaw'
+import gryffindor from '@/components/gryffindor'
 
 Vue.use(Router)
 
@@ -17,23 +17,23 @@ export default new Router({
     },
     {
 	    path: '/hufflepuff',
-	    name: 'Hufflepuff',
-	    component: Hufflepuff
+	    name: 'hufflepuff',
+	    component: hufflepuff
 	  },
     {
 	    path: '/slytherin',
-	    name: 'Slytherin',
-	    component: Slytherin
+	    name: 'slytherin',
+	    component: slytherin
 	  },
     {
 	    path: '/ravenclaw',
-	    name: 'Ravenclaw',
-	    component: Ravenclaw
+	    name: 'ravenclaw',
+	    component: ravenclaw
 	  },
     {
 	    path: '/gryffindor',
-	    name: 'Gryffindor',
-	    component: Gryffindor
+	    name: 'gryffindor',
+	    component: gryffindor
 	  }
   ]
 })
