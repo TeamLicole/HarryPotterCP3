@@ -23,36 +23,40 @@
    .clear {
        float: clear;
    }
-   nav {
-       display: grid;
-   }
-   ul {
-       list-style-type:none;
-       margin:0;
-       padding:0;
+   nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+  	 overflow: hidden;
+  	 background-color: grey;
    }
 
    /*Create a horizontal list with spacing*/
-   li {
-       display:inline-block;
-       float: left;
-       margin-right: 1px;
+   nav li {
+	   float: left;
    }
+
    /*Style for menu links*/
-   li a {
-       display:block;
-       margin-right: 20px;
-       height: 50px;
-       text-align: center;
-       line-height: 50px;
-       color: #666;
+   nav li a {
+  	 display: block;
+  	 color: white;
+  	 text-align: center;
+  	 padding: 14px 16px;
+  	 text-decoration: none;
    }
+
    /*Active color*/
-   li a.active {
+   nav a.active {
+     background-color: darkgrey;
+     color: black;
    }
+
    /*Hover state for top level links*/
-   li:hover a {
+   nav li a:hover {
+  	 background-color: #111;
+     color: white;
    }
+
    /*Style 'show menu' label button and hide it by default*/
    .show-menu {
        text-decoration: none;
@@ -62,10 +66,12 @@
        padding: 10px 0;
        display: none;
    }
+
    /*Hide checkbox*/
    input[type=checkbox]{
        display: none;
    }
+   
    /*Show menu when invisible checkbox is checked*/
    input[type=checkbox]:checked ~ #menu{
        display: block;
