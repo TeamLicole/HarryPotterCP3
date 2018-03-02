@@ -12,3 +12,26 @@
        components: { AppHeader }
    }
 </script>
+
+<style>
+  body {
+    background: black;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 5px;
+  }
+</style>

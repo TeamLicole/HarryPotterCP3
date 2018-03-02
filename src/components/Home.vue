@@ -5,6 +5,7 @@
         <button v-on:click="sortIntoHouse">Get Sorted!</button>
       </p>
       <img src="/static/images/sorting-hat.jpg">
+      </br>
     </div>
 </template>
 
@@ -44,35 +45,21 @@
 </script>
 
 <style>
-  body {
+  .home {
+    padding: 20px;
     background: url('/static/images/hog_background.jpg');
     background-size: cover;
   }
 
-  h1 {
-    color: white;
-    text-align: center;
-  }
 
   button {
     background-color: black;
-    border: none;
+    border: solid grey 3px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-
-  p {
-    color: white;
-    text-align: center;
-  }
-
-  img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
   }
 </style>
