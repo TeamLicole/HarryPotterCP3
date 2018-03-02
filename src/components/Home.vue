@@ -44,10 +44,16 @@
 </script>
 
 <style>
+  body {
+    background: url('/static/images/hog_background.jpg');
+    background-size: cover;
+  }
+
   h1 {
+    color: white;
     text-align: center;
   }
-  
+
   button {
     background-color: black;
     border: none;
@@ -60,6 +66,7 @@
   }
 
   p {
+    color: white;
     text-align: center;
   }
 
