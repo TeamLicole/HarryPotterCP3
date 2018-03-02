@@ -1,8 +1,8 @@
 <template>
   <div class="huff">
     <h1>Welcome to the HUFFLEPUFF house!!</h1>
-    </br><p>"You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And unafraid of toil" --The Sorting Hat</p>
-    </br><p>Famous Hufflepuff Witch: Tonks (also known as Nymphadora)</p></br></br>
+    </br><h2>"You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And unafraid of toil" --The Sorting Hat</h2>
+    </br><h2>Famous Hufflepuff Witch: Tonks (also known as Nymphadora)</h2></br></br>
     <img src="/static/images/famous_h.jpg">
     </br>
   </div>

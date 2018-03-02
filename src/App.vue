@@ -21,6 +21,12 @@
   h1 {
     color: white;
     text-align: center;
+    font-size: 60px;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
   }
 
   p {
